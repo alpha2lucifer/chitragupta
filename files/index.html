@@ -1,0 +1,2887 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chitragupta</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo/loogo.jpg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <div class="overlay" data-overlay></div>
+
+  <!--
+    - MODAL
+  -->
+
+  <div class="modal" data-modal>
+
+    <div class="modal-close-overlay" data-modal-overlay></div>
+
+    <div class="modal-content">
+
+      <button class="modal-close-btn" data-modal-close>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <div class="newsletter-img">
+        <img src="./assets/images/nnnl.jpg" alt="subscribe newsletter" width="400" height="400">
+      </div>
+
+      <div class="newsletter">
+
+        <form action="#">
+
+          <div class="newsletter-header">
+
+            <h3 class="newsletter-title">Subscribe Newsletter.</h3>
+
+            <p class="newsletter-desc">
+              Subscribe the <b>Chiragupta</b> to get latest schemes and services update.
+            </p>
+
+          </div>
+
+          <input type="email" name="email" class="email-field" placeholder="Email Address" required>
+
+          <button type="submit" class="btn-newsletter">Subscribe</button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!--
+    - NOTIFICATION TOAST
+  -->
+
+  <div class="notification-toast" data-toast>
+
+    <button class="toast-close-btn" data-toast-close>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="toast-banner">
+      <img src="./assets/images/products/banner.png" alt="banner" width="80" height="70">
+    </div>
+
+    <div class="toast-detail">
+
+      <p class="toast-message">
+        Get Government Service Delivered at Home
+      </p>
+
+      <p class="toast-title">
+        Call us on 1076
+      </p>
+
+      <p class="toast-meta">
+        Government Service
+      </p>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!--
+    - HEADER
+  -->
+
+  <header>
+
+    <div class="header-top">
+
+      <div class="container">
+
+        <ul class="header-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="header-alert-news">
+          <p>
+            Government of NCT of delhi
+          </p>
+        </div>
+
+        <div class="header-top-actions">
+
+          <select name="currency">
+
+            <option value="ligth">Day &#9737;</option>
+            <option value="dark">Night </option>
+
+          </select>
+
+          <select name="language">
+
+            <option value="en-US">English</option>
+            <option value="es-in">Hindi</option>
+
+          </select>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="header-main">
+
+      <div class="container">
+
+        <a href="#" class="header-logo">
+          <img src="./assets/images/logo/loogo.jpg" alt="chitragupta's logo" height="36">
+        </a>
+
+        <div class="header-search-container">
+
+          <input type="search" name="search" class="search-field" placeholder="Enter your Service name...">
+
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="header-user-actions">
+
+          <button class="action-btn">
+            <ion-icon name="person-outline"></ion-icon>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="heart-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="bag-handle-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <nav class="desktop-navigation-menu">
+
+      <div class="container">
+
+        <ul class="desktop-menu-category-list">
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Home</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Services</a>
+
+            <div class="dropdown-panel">
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Pensions</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Login</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Check Noification</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Reports</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Downloads</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">See More</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/2474460.jpg" alt="elderly" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Scholarships</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">sign in</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Check Noification</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Reports</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Downloads</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">See More</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/24.jpg" alt="senior" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Senior citizen</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">reigister</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Check Noification</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Reports</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Downloads</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">See More</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/25.jpg" alt="lorem ipsium" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Invoices & Bills</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Login</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Check Noification</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Reports</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Downloads</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">See More</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/29.jpg" alt="lorem" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Senior Citizen</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Sign up</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Verify</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Assistance</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">More</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Track Your Application</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">service</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Status</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Call us</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">know More</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Reports</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">New reports</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Downloads</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Available</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">See more</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">About Us</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">About Chitragupta</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Depatment</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">ministry Services</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">See More</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">FEEDBACK</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">SUGGESTIONS</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <div class="mobile-bottom-navigation">
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="bag-handle-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="home-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="heart-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="grid-outline"></ion-icon>
+      </button>
+
+    </div>
+
+    <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
+
+      <div class="menu-top">
+        <h2 class="menu-title">Menu</h2>
+
+        <button class="menu-close-btn" data-mobile-menu-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="mobile-menu-category-list">
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Home</a>
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Citizen's Corner</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">See Report</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Verify</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Bills</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Invoices</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Downloads</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Apply service</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Annual Reports</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">New User</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">More</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Feedback/Suggestion</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Documents</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Verification</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">New Services</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Official Visit</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">About Us</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Services Apply</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Department</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Ministry</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">More</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Contact Us</a>
+        </li>
+
+      </ul>
+
+      <div class="menu-bottom">
+
+        <ul class="menu-category-list">
+
+          <li class="menu-category">
+
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Language</p>
+
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">English</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Hindi</a>
+              </li>
+
+            </ul>
+
+          </li>
+
+          <li class="menu-category">
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Currency</p>
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">INR ₹</a>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+
+        <ul class="menu-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+
+
+
+  <!--
+    - MAIN
+  -->
+
+  <main>
+
+    <!--
+      - BANNER
+    -->
+
+    <div class="banner">
+
+      <div class="container">
+
+        <div class="slider-container has-scrollbar">
+
+          <div class="slider-item">
+
+            <img src="./assets/images/banner01.png" alt="banner" class="banner-img">
+
+          </div>
+
+          <div class="slider-item">
+
+            <img src="./assets/images/banner02.jpg" alt="bammer" class="banner-img">
+
+          </div>
+
+          <div class="slider-item">
+
+            <img src="./assets/images/banner01.png" alt="banmner" class="banner-img">
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - CATEGORY
+    -->
+
+    <div class="category">
+
+      <div class="container">
+
+        <div class="category-item-container has-scrollbar">
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/ApplyService.png" alt="Apply service" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Apply service</h3>
+
+                <p class="category-item-amount">(53)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/Track1.png" alt="Apply service" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Track Application</h3>
+
+                <p class="category-item-amount">(58)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/ApplyService.png" alt="lorem" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Reports</h3>
+
+                <p class="category-item-amount">(68)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/Verify1.png" alt="Verify" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Verify</h3>
+
+                <p class="category-item-amount">(84)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/svg.png" alt="trackkk" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Print/download Invoice</h3>
+
+                <p class="category-item-amount">(35)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/svg.png" alt="bill" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Bills</h3>
+
+                <p class="category-item-amount">(16)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - PRODUCT
+    -->
+
+    <div class="product-container">
+
+      <div class="container">
+
+
+        <!--
+          - SIDEBAR
+        -->
+
+        <div class="sidebar  has-scrollbar" data-mobile-menu>
+
+          <div class="sidebar-category">
+
+            <div class="sidebar-top">
+              <h2 class="sidebar-title">Category</h2>
+
+              <button class="sidebar-close-btn" data-mobile-menu-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </div>
+
+            <ul class="sidebar-menu-category-list">
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/svg.png" alt="lorem" width="20" height="20"
+                      class="menu-title-img">
+
+                    <p class="menu-title">Ministry of Transport</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">New User</p>
+                      <data value="300" class="stock" title="Available Stock">300</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Verify</p>
+                      <data value="60" class="stock" title="Available Stock">60</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Lcense</p>
+                      <data value="50" class="stock" title="Available Stock">50</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Apply service</p>
+                      <data value="87" class="stock" title="Available Stock">87</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/svg.png" alt="fo" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Education</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Sports</p>
+                      <data value="45" class="stock" title="Available Stock">45</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">official</p>
+                      <data value="75" class="stock" title="Available Stock">75</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Books</p>
+                      <data value="35" class="stock" title="Available Stock">35</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Safety Bills</p>
+                      <data value="26" class="stock" title="Available Stock">26</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/svg.png" alt="jhgffc" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Reports</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Documents</p>
+                      <data value="46" class="stock" title="Available Stock">46</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Available</p>
+                      <data value="73" class="stock" title="Available Stock">73</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">New Report</p>
+                      <data value="61" class="stock" title="Available Stock">61</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/svg.png" alt="dfghj" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Apply</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">New Application</p>
+                      <data value="12" class="stock" title="Available Stock">12 </data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Downloads</p>
+                      <data value="60" class="stock" title="Available Stock">60 </data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">More</p>
+                      <data value="50" class="stock" title="Available Stock">50 </data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Apply service</p>
+                      <data value="87" class="stock" title="Available Stock">87 </data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/svg.png" alt="yyh" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Accounts</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Invoice</p>
+                      <data value="68" class="stock" title="Available Stock">68</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Bills</p>
+                      <data value="46" class="stock" title="Available Stock">46</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Reports</p>
+                      <data value="79" class="stock" title="Available Stock">79</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Downloads</p>
+                      <data value="23" class="stock" title="Available Stock">23</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/svg.png" alt="ede" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Revenue Courts</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Sign in</p>
+                      <data value="50" class="stock" title="Available Stock">50</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Log in</p>
+                      <data value="48" class="stock" title="Available Stock">48</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/svg.png" alt="rr" class="menu-title-img" width="20" height="20">
+
+                    <p class="menu-title">Issuance of ROR (DLRC)</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Downloads</p>
+                      <data value="62" class="stock" title="Available Stock">62</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Documents</p>
+                      <data value="35" class="stock" title="Available Stock">35</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Locate UIDAI Center</p>
+                      <data value="80" class="stock" title="Available Stock">80</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">More</p>
+                      <data value="75" class="stock" title="Available Stock">75</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="product-showcase">
+
+            <h3 class="showcase-heading">How To Apply</h3>
+
+            <div class="showcase-wrapper">
+
+              <div class="showcase-container">
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/1.png" alt="baBills" width="75" height="75"
+                      class="showcase-img">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">FAQs</h4>
+                    </a>
+
+                    <div class="price-box">
+                      <p class="price">more</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/2.png" alt="mt" class="showcase-img"
+                      width="75" height="75">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">Timelines</h4>
+                    </a>
+                    <div class="price-box">
+                      <p class="price">more</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/3.png" alt="gi" class="showcase-img" width="75"
+                      height="75">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">Designated Offices</h4>
+                    </a>
+                    <div class="price-box">
+                      <p class="price">more</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/4.png" alt="woon" class="showcase-img" width="75"
+                      height="75">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">Eligibility Criteria and Guidelines</h4>
+                    </a>
+
+                    <div class="price-box">
+                      <p class="price">more</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="product-box">
+
+          <!--
+            - PRODUCT MINIMAL
+          -->
+
+          <div class="product-minimal">
+
+            <div class="product-showcase">
+
+              <h2 class="title">What's New</h2>
+
+              <div class="showcase-wrapper has-scrollbar">
+
+                <div class="showcase-container">
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/absss.jpg" alt="rirt" width="70"
+                        class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Payment of Ex-Gratia Assistance to families of deceased person due to
+                          COVID-19 in Delhi</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Services</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/tirth.jpg" alt="giop"
+                        class="showcase-img" width="70">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Mukhyamantri Tirth Yatra Yojana…</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Services</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/voter.png" alt="bt"
+                        class="showcase-img" width="70">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Verify Voter Details…</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Servies</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/nsp.jpg" alt="pt"
+                        class="showcase-img" width="70">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">For registration at NSP portal…</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Services</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-container">
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/absss.jpg" alt="rhit" width="70"
+                        class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Payment of Ex-Gratia Assistance to families of deceased person due to
+                          COVID-19 in Delhi</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Services</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/tirth.jpg" alt="girp"
+                        class="showcase-img" width="70">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Mukhyamantri Tirth Yatra Yojana…</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Services</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/voter.png" alt="blt"
+                        class="showcase-img" width="70">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Verify Voter Details…</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Servies</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/nsp.jpg" alt="put"
+                        class="showcase-img" width="70">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">For registration at NSP portal…</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Services</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="product-showcase">
+
+              <h2 class="title">Ongoing schemes</h2>
+
+              <div class="showcase-wrapper  has-scrollbar">
+
+                <div class="showcase-container">
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/absss.jpg" alt="rert" width="70"
+                        class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Payment of Ex-Gratia Assistance to families of deceased person due to
+                          COVID-19 in Delhi</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Services</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/tirth.jpg" alt="gip"
+                        class="showcase-img" width="70">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Mukhyamantri Tirth Yatra Yojana…</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Services</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/voter.png" alt="di srt"
+                        class="showcase-img" width="70">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Verify Voter Details…</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Servies</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/nsp.jpg" alt="put"
+                        class="showcase-img" width="70">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">For registration at NSP portal…</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Services</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-container">
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/absss.jpg" alt="rrt" width="70"
+                        class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Payment of Ex-Gratia Assistance to families of deceased person due to
+                          COVID-19 in Delhi</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Services</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/tirth.jpg" alt="gop"
+                        class="showcase-img" width="70">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Mukhyamantri Tirth Yatra Yojana…</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Services</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/voter.png" alt="bt"
+                        class="showcase-img" width="70">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Verify Voter Details…</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Servies</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/nsp.jpg" alt="puirt"
+                        class="showcase-img" width="70">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">For registration at NSP portal…</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Services</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="product-showcase">
+
+              <h2 class="title">Most Visited</h2>
+
+              <div class="showcase-wrapper  has-scrollbar">
+
+                <div class="showcase-container">
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/absss.jpg" alt="relt" width="70"
+                        class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Payment of Ex-Gratia Assistance to families of deceased person due to
+                          COVID-19 in Delhi</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Services</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/tirth.jpg" alt="gp"
+                        class="showcase-img" width="70">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Mukhyamantri Tirth Yatra Yojana…</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Services</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/voter.png" alt="blrt"
+                        class="showcase-img" width="70">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Verify Voter Details…</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Servies</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/nsp.jpg" alt="pt"
+                        class="showcase-img" width="70">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">For registration at NSP portal…</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Services</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-container">
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/absss.jpg" alt=" More" width="70"
+                        class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Payment of Ex-Gratia Assistance to families of deceased person due to
+                          COVID-19 in Delhi</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Services</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/tirth.jpg" alt="iuhgp"
+                        class="showcase-img" width="70">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Mukhyamantri Tirth Yatra Yojana…</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Services</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/voter.png" alt="bt"
+                        class="showcase-img" width="70">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Verify Voter Details…</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Servies</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/nsp.jpg" alt="pt"
+                        class="showcase-img" width="70">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">For registration at NSP portal…</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Services</a>
+
+                      <div class="price-box">
+                        <p class="price"> More</p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+          <!--
+            - PRODUCT GRID
+          -->
+
+          <div class="product-main">
+
+            <h2 class="title">Services</h2>
+
+            <div class="product-grid">
+
+              <div class="showcase">
+
+                <div class="showcase-banner">
+
+                  <img src="./assets/images/hover/pic1.png" alt="Mets" width="300"
+                    class="product-img default">
+                  <img src="./assets/images/hover/pic2.jpg" alt="Mckets" width="300"
+                    class="product-img hover">
+
+                  <div class="showcase-actions">
+
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-content">
+
+                  <a href="#" class="showcase-category">Govt of India</a>
+
+                  <a href="#">
+                    <h3 class="showcase-title">BHARAT</h3>
+                  </a>
+
+                  <div class="price-box">
+                    <p class="price">More</p>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="showcase">
+
+                <div class="showcase-banner">
+                  <img src="./assets/images/hover/pic3.png" alt="Pt"
+                    class="product-img default" width="300">
+                  <img src="./assets/images/hover/pic4.png" alt="Puhirt"
+                    class="product-img hover" width="300">
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Documents</a>
+
+                  <h3>
+                    <a href="#" class="showcase-title">See your Doucuments</a>
+                  </h3>
+
+                  <div class="price-box">
+                    <p class="price">see more</p>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="showcase">
+
+                <div class="showcase-banner">
+                  <img src="./assets/images/hover/pic5.png" alt="Mt"
+                    class="product-img default" width="300">
+                  <img src="./assets/images/hover/pic6.jpeg" alt="et"
+                    class="product-img hover" width="300">
+
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Invoices</a>
+
+                  <h3>
+                    <a href="#" class="showcase-title">Reciepts & Bills</a>
+                  </h3>
+
+                  <div class="price-box">
+                    <p class="price">More</p>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="showcase">
+
+                <div class="showcase-banner">
+                  <img src="./assets/images/hover/pic7.png" alt="Brt"
+                    class="product-img default" width="300">
+                  <img src="./assets/images/hover/pic8.png" alt="rt"
+                    class="product-img hover" width="300">
+
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Communications</a>
+
+                  <h3>
+                    <a href="#" class="showcase-title">Make Transations</a>
+                  </h3>
+
+                  <div class="price-box">
+                    <p class="price">More</p>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="showcase">
+
+                <div class="showcase-banner">
+                  <img src="./assets/images/hover/pic10.jpg" alt="Cs"
+                    class="product-img default" width="300">
+                  <img src="./assets/images/hover/pic9.png" alt="Casls"
+                    class="product-img hover" width="300">
+
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Senior Citizen</a>
+
+                  <h3>
+                    <a href="#" class="showcase-title">Gives Smiles to you Family</a>
+                  </h3>
+
+                  <div class="price-box">
+                    <p class="price">More</p>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="showcase">
+
+                <div class="showcase-banner">
+                  <img src="./assets/images/hover/pic12.png" alt="Pch"
+                    class="product-img default" width="300">
+                  <img src="./assets/images/hover/pic11.jpg" alt="Pockch"
+                    class="product-img hover" width="300">
+
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">money</a>
+
+                  <h3>
+                    <a href="#" class="showcase-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, ut saepe!funds transfer</a>
+                  </h3>
+
+                  <div class="price-box">
+                    <p class="price">74</p>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="showcase">
+
+                <div class="showcase-banner">
+                  <img src="./assets/images/hover/pic11.jpg" alt="Sus"
+                    class="product-img default" width="300">
+                  <img src="./assets/images/hover/pic12.png" alt="Sma Plus"
+                    class="product-img hover" width="300">
+
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">money</a>
+
+                  <h3>
+                    <a href="#" class="showcase-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus.funds transfer</a>
+                  </h3>
+
+                  <div class="price-box">
+                    <p class="price">123</p>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="showcase">
+
+                <div class="showcase-banner">
+                  <img src="./assets/images/hover/pic9.png" alt="Womlls"
+                    class="product-img default" width="300">
+                  <img src="./assets/images/hover/pic10.jpg" alt="Womls"
+                    class="product-img hover" width="300">
+
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Child Deelopment</a>
+
+                  <h3>
+                    <a href="#" class="showcase-title">Gives Smiles to you Family</a>
+                  </h3>
+
+                  <div class="price-box">
+                    <p class="price">12345</p>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="showcase">
+
+                <div class="showcase-banner">
+                  <img src="./assets/images/hover/pic8.png" alt="Mets"
+                    class="product-img default" width="300">
+                  <img src="./assets/images/hover/pic7.png" alt="Meckets"
+                    class="product-img hover" width="300">
+
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">transfer</a>
+
+                  <h3>
+                    <a href="#" class="showcase-title">Lorem ipsum dolor sit amet consectetur.</a>
+                  </h3>
+
+                  <div class="price-box">
+                    <p class="price">More</p>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="showcase">
+
+                <div class="showcase-banner">
+                  <img src="./assets/images/hover/pic2.jpg" alt="Track"
+                    class="product-img default" width="300">
+                  <img src="./assets/images/hover/pic1.png" alt="Tck"
+                    class="product-img hover" width="300">
+
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Loem</a>
+
+                  <h3>
+                    <a href="#" class="showcase-title">Lorem, ipsum dolor sit amet consectetur adipisicing.</a>
+                  </h3>
+
+                  <div class="price-box">
+                    <p class="price">1124</p>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="showcase">
+
+                <div class="showcase-banner">
+                  <img src="./assets/images/hover/pic4.png" alt="Ms"
+                    class="product-img default" width="300">
+                  <img src="./assets/images/hover/pic3.png" alt="Mells"
+                    class="product-img hover" width="300">
+
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">official</a>
+
+                  <h3>
+                    <a href="#" class="showcase-title">Services for Senior Citizen</a>
+                  </h3>
+
+                  <div class="price-box">
+                    <p class="price">123456</p>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="showcase">
+
+                <div class="showcase-banner">
+                  <img src="./assets/images/hover/pic6.jpeg" alt="Bets"
+                    class="product-img default" width="300">
+                  <img src="./assets/images/hover/pic5.png" alt="Brts"
+                    class="product-img hover" width="300">
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">shorts</a>
+
+                  <h3>
+                    <a href="#" class="showcase-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                  </h3>
+
+                  <div class="price-box">
+                    <p class="price">12345456</p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - TESTIMONIALS, CTA & SERVICE
+    -->
+
+    <div>
+
+      <div class="container">
+
+        <div class="testimonials-box">
+
+          <!--
+            - TESTIMONIALS
+          -->
+
+          <div class="testimonial">
+
+            <h2 class="title">Development</h2>
+
+            <div class="testimonial-card">
+
+              <img src="./assets/images/abfff.jpg" alt="alan doe" class="testimonial-banner" width="80" height="80">
+
+              <p class="testimonial-name">Kshatriya K1</p>
+
+              <p class="testimonial-title">Team</p>
+
+              <img src="./assets/images/icons/quotes.svg" alt="quotation" class="quotation-img" width="26">
+
+              <p class="testimonial-desc">
+                Chandan ;
+                Aastha
+                Anjali ;
+                Samya
+                Apeksha ;
+                Aditya
+              </p>
+
+            </div>
+
+          </div>
+
+
+
+          <!--
+            - CTA
+          -->
+
+          <div class="cta-container">
+
+            <img src="./assets/images/absss.jpg" alt="suon" class="cta-banner">
+
+            <a href="#" class="cta-content">
+
+              <p class="discount">Social Distancing</p>
+
+              <h2 class="cta-title">COVID Advisory</h2>
+
+              <p class="cta-text">Wash Hands</p>
+
+              <button class="cta-btn">Wear Mask</button>
+
+            </a>
+
+          </div>
+
+
+
+          <!--
+            - SERVICE
+          -->
+
+          <div class="service">
+
+            <h2 class="title">Department</h2>
+
+            <div class="service-container">
+
+              <a href="#" class="service-item">
+
+                <div class="service-icon">
+                  <ion-icon name="boat-outline"></ion-icon>
+                </div>
+
+                <div class="service-content">
+
+                  <h3 class="service-title">Ministry of Commerce and Industry</h3>
+                  <p class="service-desc">Government of India</p>
+
+                </div>
+
+              </a>
+
+              <a href="#" class="service-item">
+
+                <div class="service-icon">
+                  <ion-icon name="rocket-outline"></ion-icon>
+                </div>
+
+                <div class="service-content">
+
+                  <h3 class="service-title">Ministry of Education</h3>
+                  <p class="service-desc">Government of India</p>
+
+                </div>
+
+              </a>
+
+              <a href="#" class="service-item">
+
+                <div class="service-icon">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+
+                <div class="service-content">
+
+                  <h3 class="service-title">Best Online Support</h3>
+                  <p class="service-desc">Hours: 8AM - 11PM</p>
+
+                </div>
+
+             </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - BLOG
+    -->
+
+  </main>
+
+
+
+
+
+  <!--
+    - FOOTER
+  -->
+
+  <footer>
+
+    <div class="footer-nav">
+
+      <div class="container">
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Services</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Generate Bills</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Get Invoices</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Downloads</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Services</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">See More</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Services</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Education</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Scholarships</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Trade</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Tenders</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">See more</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Contact</h2>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="content">
+              Government of National Capital Territory of Delhi,
+              3rd level, Delhi Secretariat,
+              I.P. Estate,
+              New Delhi-110002 (India)
+            </address>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+607936-8058" class="footer-nav-link">(+91) 1234567890</a>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:example@gmail.com" class="footer-nav-link">ChitraGupta-Gov@gmail.com</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Follow Us</h2>
+          </li>
+
+          <li>
+            <ul class="social-link">
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <img src="./assets/images/payment.jpg" alt="paod" class="payment-img">
+
+        <p class="copyright">
+          Copyright &copy; 2023<a href="#"> Chitragupta</a> all rights reserved.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
